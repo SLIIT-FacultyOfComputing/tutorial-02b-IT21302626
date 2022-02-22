@@ -29,9 +29,9 @@ int main() {
 }
 long Factorial(int no)
 {
-int x,answer=1;
-  for(x=1;x<=no;x++){
-    answer=answer*x;
+int k,answer=1;
+  for(k=1;k<=no;k++){
+    answer=answer*k;
     
   }
   return answer;
